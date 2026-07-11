@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        HTML Input Type Checkbox
+    </title>
+
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        fieldset {
+            width: 250px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>HTML &lt;input type="checkbox"&gt;</h2>
+
+    <form action="#">
+        <fieldset>
+            <legend>Select Your Subjects:</legend>
+
+            <input type="checkbox" 
+                   name="check" 
+                   id="checkbox1" 
+                   value="html" checked>
+            <label for="checkbox1">HTML</label>
+            <br>
+
+            <input type="checkbox" 
+                   name="check" 
+                   id="checkbox2" 
+                   value="css">
+            <label for="checkbox2">CSS</label>
+            <br>
+
+            <input type="checkbox" 
+                   name="check" 
+                   id="checkbox3" 
+                   value="javascript" required>
+            <label for="checkbox3">JavaScript</label>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

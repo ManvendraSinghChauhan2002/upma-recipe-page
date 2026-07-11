@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upma recipe</title>
+    <style>
+        
+        button
+        {
+            font-size: 22px;
+            text-align: center;
+        }
+        label,input
+        {
+            font-size: 23px;
+        }
+        body
+        {
+            margin: 30px;
+        }
+        ul
+        {
+            font-size: 23px;
+        }
+        ol
+        {
+            font-size: 23px;
+            margin: 3px;
+        }
+        h1
+        {
+            text-align: center;
+            font-size: 33px;
+            color:blueviolet;
+            font-style: italic;
+        }
+        h2
+        {
+            font-size: 28px;
+            color:coral;
+        }
+        h3
+        {
+            font-size: 28px;
+            color: brown;
+            text-align: center;
+        }
+        h4
+        {
+            font-size:28px;
+            color:crimson;
+            font-style: italic;
+            text-align: center;
+        }
+        p
+        {
+            font-size: 23px;
+        }
+
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Today, we will be learning how to make Upma!</h1>
+        
+            <h2>Ingredients needed (Below ingredients is for 1-2 katori Upma)</h2>
+            <ul>
+                <li>Suji/Rawa:1/2 bowl </li>
+                <li>Tomatoes: 2 (finely chopped)</li>
+                <li>Onions: 2 (finely chopped)</li>
+                <li>Green chillies: 3 </li>
+                <li>Turmeric powder:1/2 tbsp</li>
+                <li>Coriander powder: 1 tbsp</li>
+                <li>Red chilli powder: 1/4 tbsp</li>
+                <li>Chana daal: 1 tbsp </li>
+                <li>Urad daal: 1 tbsp</li>
+                <li>Mustard oil: 1 serving spoon</li>
+                <li>mustard seeds: 1/2 tbsp</li>
+                <li>Water: Take 1.5 bowls of water if you want less thick upma and take 1 bowl if you want thick upma <strong>(In upma the ratio of Suji to water is 1:2 to 1:3 means for every 1 part of suji we need 2-3 parts of water.</strong></li>
+                <li>Curry leaves: a handful</li>
+                <li>Salt:1/2 tbsp or as per taste</li>
+                <li>Chopped vegetables like cauliflower, etc (optional but benificial for health) </li>
+                <li>My blessings that it will taste great!</li>
+        </ul>
+
+        <h3>Cooking Time!</h3>
+        <ol>
+        <li><i>Dry roast suji on medium flame</i> until it becomes golden-brown <em>also you have to use a spatula to move the suji else some part of it will get burned</em> and some will not even cook then place it aside.</li>
+        <li>Turn on gas on lowest  flame. Put cumin, let it roast, once it's done, put chana and urad daal and move using spatula. Now put onions and let them turn brown then put green chillies and then tomatoes and stir and mix everything well.</li>
+        <li><b>Now its time for spices!.</b> So, first add salt then turmeric then coriander then red chilli mix well. Now you can add vegetables like cauliflower, carrots, etc. if you want.</li>
+        <li>Now put water in the wok in which you have prepared the vegetables and let the water boil by turning the gas on high flame. When big bubbles start appearing the water is boiled.</li>
+        <li>So, now put suji in it but no need to stir this time also when the water was boiling (the previous step). Now, you will see your upma is cooked turn off the flame based on how thick upma you want.</li>
+        <li>Your upma is ready to eat!</li>
+        </ol>
+        <br>
+        <h4>If you liked the recipe you can subsribe to our page </h4>
+        <form>
+            <input  type="checkbox" id="Sign_up" name="Sign up" value="Sign up">
+            <label for="Sign_up">Check this box if you want to Sign up to our website.</label><br> 
+            <input type="checkbox" id="notification" name="notification" value="notification">
+            <label for="notification">Check this box if you want to receive notifications for our articles.</label><br><br>
+        
+           
+            <p>Please enter your details to sign up for our website.</p>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter first number here" maxlength="20" required><br>
+            <label for="middle_name">Middle Name:</label>
+            <input type="text" id="middle_name" name="middle_name" placeholder="Enter middle name here" maxlength="20" required><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter last name here" maxlength="20" required><br>
+            <label for="email">E-mail ID:</label>
+            <input type="email" id="email" name="email" placeholder="Enter E-mail here" required>
+                        <p style="color: blueviolet " >You can rate how much you liked our upma recipe on the scale of 10 after making and tasting it.</p>
+            <label for="number">Number:</label>
+
+            <input type="number" id="number" name="number" placeholder="Enter the number here" min="0" max="10" required>
+            <br>
+             <button type="submit"> Submit</button>   
+             <p>Would you like to order our upma if yes then enter yes.</p>
+             <label for="delivery_status">Online ordering staus:</label>
+             <input type="text" id="delivery_status" name="delivery_status" value="Sorry we are out of service currently." disabled>  
+            <p>How likely are you to suggest our Upma recipe to others:</p>
+
+            <input type="radio" id="extremely_likely" name="your choice" value="Extremely likely">
+            <label for="extremely_likely">Extremely likely</label><br>
+            
+            <input type="radio" id="likely" name="your choice" value="likely">
+            <label for="likely">likely</label><br>
+
+            <input type="radio" id="unlikely" name="your choice" value="unlikely">
+            <label for="unlikely">unlikely</label><br>
+
+            <input type="radio" id="extremely_unlikely" name="your choice" value="extremely unlikely">
+            <label for="Extremely unlikely">Extremely unlikely</label> 
+            </form>
+       
+    </article>
+</body>
+</html>
